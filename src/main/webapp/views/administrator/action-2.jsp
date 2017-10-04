@@ -74,4 +74,4 @@
 	</p>
 </jstl:if>
 
-<jstl:out value="${rand}"></jstl:out>
+
