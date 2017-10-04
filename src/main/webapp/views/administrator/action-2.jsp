@@ -21,7 +21,57 @@
 <p>
 	<spring:message code="administrator.action.2" />
 </p>
-<p>
-	<spring:message code="administrator.quote.${Math.random()*10+1}" />
-</p>
 
+
+<jstl:if test="${rand== 1}">
+	<p>
+		<spring:message code="administrator.quote.1" />
+	</p>
+</jstl:if>
+<jstl:if test="${rand== 2}">
+	<p>
+		<spring:message code="administrator.quote.2" />
+	</p>
+</jstl:if>
+<jstl:if test="${rand== 3}">
+	<p>
+		<spring:message code="administrator.quote.3" />
+	</p>
+</jstl:if>
+<jstl:if test="${rand== 4}">
+	<p>
+		<spring:message code="administrator.quote.4" />
+	</p>
+</jstl:if>
+<jstl:if test="${rand== 5}">
+	<p>
+		<spring:message code="administrator.quote.5" />
+	</p>
+</jstl:if>
+<jstl:if test="${rand== 6}">
+	<p>
+		<spring:message code="administrator.quote.6" />
+	</p>
+</jstl:if>
+<jstl:if test="${rand== 7}">
+	<p>
+		<spring:message code="administrator.quote.7" />
+	</p>
+</jstl:if>
+<jstl:if test="${rand== 8}">
+	<p>
+		<spring:message code="administrator.quote.8" />
+	</p>
+</jstl:if>
+<jstl:if test="${rand== 9}">
+	<p>
+		<spring:message code="administrator.quote.9" />
+	</p>
+</jstl:if>
+<jstl:if test="${rand== 10}">
+	<p>
+		<spring:message code="administrator.quote.10" />
+	</p>
+</jstl:if>
+
+<jstl:out value="${rand}"></jstl:out>

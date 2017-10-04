@@ -22,4 +22,4 @@
 	<spring:message code="administrator.action.1" />
 </p>
 
-${param.x} + ${param.y} = ${param.x + param.y}
+${x} + ${y} = ${suma}

@@ -22,7 +22,7 @@
 	<spring:message code="profile.action.2" />
 </p>
 
-<jstl:forEach begin="0" end="${param.count - 1}" step="1" var="x">
+<jstl:forEach begin="0" end="${count - 1}" step="1" var="x">
 	${x},
 </jstl:forEach>
-	${param.count}
+${count}
